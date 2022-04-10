@@ -12,7 +12,7 @@ class Button extends React.Component {
 
     render(){
     return(
-        <div className='child'>
+        <div>
       <button onClick={this.handleClick} className='button-49'>CLASSIFY</button>  
       </div>
     )

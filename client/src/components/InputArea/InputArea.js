@@ -8,7 +8,7 @@ class InputArea extends React.Component {
     }
     render(){
     return(
-        <div className='child'>
+        <div>
             <textarea 
                 placeholder='Place your text here' 
                 cols="60" 

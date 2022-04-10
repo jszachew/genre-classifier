@@ -1,15 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import CssBaseline from '@mui/material/CssBaseline';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 import {Provider} from 'react-redux'
 import store from './redux/store'
 
 ReactDOM.render(
+  <React.Fragment>
   <Provider store={store}>
+    <CssBaseline />
     <App />
-  </Provider>,
+  </Provider>
+  </React.Fragment>,
   document.getElementById('root')
 );
 
